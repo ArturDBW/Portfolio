@@ -7,3 +7,16 @@
     font-family: "Manrope", sans-serif;
   }
 }
+
+.custom-bg-gradient {
+  background: radial-gradient(
+    at top,
+    rgb(37, 17, 77) 0%,
+    rgb(35, 13, 51) 30%,
+    rgba(7, 1, 14, 1) 60%
+  );
+}
+
+.custom-bg-gradient2 {
+  background: radial-gradient(#1b171b 0%, #14071f 45%, #07010e 70%);
+}
