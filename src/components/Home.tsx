@@ -1,3 +1,4 @@
+import { MainButton } from "../elements/mainButton";
 import test from "/src/assets/test.png";
 
 export const Home = () => {
@@ -13,7 +14,7 @@ export const Home = () => {
             <h4 className="text-xl">Hi there! I&rsquo;m</h4>
             <h1 className="mb-2 mt-6 text-6xl">Artur Wiśniewski</h1>
             <h3 className="mb-16 text-3xl">Frontend developer</h3>
-            <button>About me</button>
+            <MainButton>About me</MainButton>
           </div>
           <div className="flex grow justify-end">
             <img src={test} alt="test" />
