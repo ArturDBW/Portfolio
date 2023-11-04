@@ -1,14 +1,23 @@
+// import logo from "../../public/assets/logo.png";
+
 export const Header = () => {
   return (
-    <header className="flex h-14 items-center justify-between bg-neutral-800 px-10 text-lg text-white">
-      <div>dBw</div>
-      <ul className="flex space-x-8">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-      </ul>
+    <header className="flex h-14 items-center justify-between bg-neutral-950  px-10 text-white">
       <div>
-        <button>Contact</button>
+        <span className=" text-2xl font-bold">
+          d<span className="text-pink-500">B</span>w
+        </span>
+      </div>
+      <nav>
+        <ul className="flex space-x-12 font-bold uppercase">
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <div>
+        <button>Download CV</button>
       </div>
     </header>
   );
