@@ -2,7 +2,7 @@
 
 export const Header = () => {
   return (
-    <header className="flex h-14 items-center justify-between bg-neutral-950  px-10 text-white">
+    <header className="flex h-14  items-center justify-between  bg-neutral-950 px-10 text-white">
       <div>
         <span className=" text-2xl font-bold">
           d<span className="text-pink-500">B</span>w
