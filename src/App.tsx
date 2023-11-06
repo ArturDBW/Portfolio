@@ -1,11 +1,12 @@
 import { Header } from "./components/Header";
-import test from "../public/assets/test.png";
+import { Home } from "./components/Home";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <Home />
+    </>
   );
 }
 

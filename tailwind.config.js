@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/testbricks.jpg')",
+        "gradient-linear":
+          "linear-gradient(90deg, rgba(236, 65, 99, 1) 0%, rgba(168, 36, 181, 1) 50%)",
+      },
+      boxShadow: {
+        "gradient-linear-shadow":
+          "0 0 12px 3px rgba(236, 65, 99, 1), 0 0 12px 6px rgba(168, 36, 181, 1)",
       },
     },
   },
