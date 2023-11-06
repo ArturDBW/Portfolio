@@ -1,5 +1,3 @@
-// import logo from "../../public/assets/logo.png";
-
 export const Header = () => {
   return (
     <header className="sticky flex h-14 items-center  justify-between bg-neutral-950 px-10 text-white">
