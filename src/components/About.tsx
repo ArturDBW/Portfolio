@@ -26,7 +26,7 @@ export const About = () => {
             developer based in Bytów, Poland. Currently I looking for my first
             job as a frontend developer.
           </p>
-          <span className="my-5 block">Actually i work with:</span>
+          <h3 className="my-5">Actually i work with</h3>
           <div className="inline-flex items-center space-x-3 rounded-md bg-white bg-opacity-20 px-6 py-3 backdrop-blur-md">
             <HTMLsvg />
             <CSSsvg />
@@ -36,12 +36,12 @@ export const About = () => {
             <Reactsvg />
             <Tailwindsvg />
           </div>
-          <span className="my-5 block">Find me on GitHub and Linkdln</span>
+          <h3 className="my-5">Find me on GitHub and Linkdln</h3>
           <div className="inline-flex items-center space-x-3 rounded-md bg-white bg-opacity-20 px-6 py-3 backdrop-blur-md">
             <GitHubsvg />
             <Linkedlnsvg />
           </div>
-          <span className="my-5 block">Check my CV</span>
+          <h3 className="my-5">Check my CV</h3>
           <MainButton>Download</MainButton>
         </div>
       </div>
