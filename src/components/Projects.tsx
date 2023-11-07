@@ -1,6 +1,7 @@
 import { useState } from "react";
 import audiophileApp from "../assets/audiophileApp.png";
 import { MainButton } from "../elements/MainButton";
+import { ProjectsModal } from "./ProjectsModal";
 
 export const Projects = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -13,9 +14,17 @@ export const Projects = () => {
     setIsHovered(false);
   };
 
+  const [isOpenModal, setIsOpenModal] = useState(true);
+
   return (
     <section className="bg-[#14071A] py-5 text-white">
       <div className="mx-auto max-w-7xl">
+        {isOpenModal && (
+          <ProjectsModal
+            isOpenModal={isOpenModal}
+            setIsOpenModal={setIsOpenModal}
+          />
+        )}
         <h2 className="text-center text-4xl">Projects</h2>
         <div className="mt-8 flex gap-x-10">
           <div
