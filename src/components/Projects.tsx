@@ -1,7 +1,7 @@
 import { useState } from "react";
 import audiophileApp from "../assets/audiophileApp.png";
 import { MainButton } from "../elements/MainButton";
-import { ProjectsModal } from "./ProjectsModal";
+import { ModalProjects } from "./ModalProjects";
 
 export const Projects = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -14,13 +14,19 @@ export const Projects = () => {
     setIsHovered(false);
   };
 
-  const [isOpenModal, setIsOpenModal] = useState(true);
+  const [isOpenModal, setIsOpenModal] = useState(false);
+
+  if (isOpenModal === true) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "visible";
+  }
 
   return (
     <section className="bg-[#14071A] py-5 text-white">
       <div className="mx-auto max-w-7xl">
         {isOpenModal && (
-          <ProjectsModal
+          <ModalProjects
             isOpenModal={isOpenModal}
             setIsOpenModal={setIsOpenModal}
           />
@@ -36,7 +42,9 @@ export const Projects = () => {
             <h3 className="my-4 text-center text-2xl">audiophileShop</h3>
             {isHovered && (
               <div className="bg-darknes-bg absolute left-0 top-0 flex h-full w-full transform items-center justify-center">
-                <MainButton>Check out</MainButton>
+                <MainButton onClick={() => setIsOpenModal(!isOpenModal)}>
+                  Check out
+                </MainButton>
               </div>
             )}
           </div>
