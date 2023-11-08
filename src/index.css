@@ -31,3 +31,12 @@
   background-clip: text;
   color: transparent;
 }
+.gradient-border {
+  border-width: 2px;
+  border-image: linear-gradient(
+    90deg,
+    rgba(236, 65, 99, 1) 0%,
+    rgba(168, 36, 181, 1) 50%
+  );
+  border-image-slice: 1;
+}

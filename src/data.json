@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "entMoviesApp",
+    "description": "opis tutaj bedzie wiadomo",
+    "features": [
+      {
+        "feature": "images slider"
+      },
+      {
+        "feature": "search input"
+      },
+      {
+        "feature": "add/remove to favourite list"
+      },
+      {
+        "feature": "sorted movies to two categories"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "JavaScript"
+      },
+      {
+        "technology": "React"
+      },
+      {
+        "technology": "Sass"
+      },
+      {
+        "technology": "React Router"
+      }
+    ],
+    "repoLink": "www.repo",
+    "websiteLink": "nooooo",
+    "image": "/assets/entMoviesApp.png",
+    "gallery": [
+      {
+        "image": "/assets/entMoviesApp.png"
+      },
+      {
+        "image": "/assets/entMoviesApp2.png"
+      },
+      {
+        "image": "/assets/entMoviesApp.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "audiophileShop",
+    "description": "drugi opissss",
+    "features": [
+      {
+        "feature": "pierwszy feature"
+      },
+      {
+        "feature": "drugi feature"
+      },
+      {
+        "feature": "trzeci inny feature"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "javascript"
+      },
+      {
+        "technology": "react"
+      },
+      {
+        "technology": "tailwind"
+      }
+    ],
+    "repoLink": "www.repo",
+    "websiteLink": "nooooo",
+    "image": "/assets/audiophileApp.png",
+    "gallery": [
+      {
+        "image": "/assets/audiophileApp.png"
+      },
+      {
+        "image": "/assets/audiophileApp2.png"
+      },
+      {
+        "image": "/assets/audiophileApp3.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Trzeci",
+    "description": "opis tutaj bedzie wiadomo",
+    "features": [
+      {
+        "feature": "pierwszy feature"
+      },
+      {
+        "feature": "drugi feature"
+      },
+      {
+        "feature": "trzeci feature"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "javascript"
+      },
+      {
+        "technology": "react"
+      },
+      {
+        "technology": "tailwind"
+      }
+    ],
+    "repoLink": "www.repo",
+    "websiteLink": "nooooo",
+    "image": "/assets/audiophileApp.png"
+  }
+]

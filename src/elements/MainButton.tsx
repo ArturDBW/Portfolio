@@ -1,10 +1,14 @@
 type ButtonProps = {
   children: React.ReactNode;
+  onClick?: React.MouseEventHandler;
 };
 
-export const MainButton = ({ children }: ButtonProps) => {
+export const MainButton = ({ children, onClick }: ButtonProps) => {
   return (
-    <button className="bg-gradient-linear hover:shadow-gradient-linear-shadow rounded-md px-6 py-3 font-bold uppercase tracking-widest duration-100 ease-out hover:scale-110 hover:bg-white hover:bg-none hover:text-black">
+    <button
+      onClick={onClick}
+      className="rounded-md bg-gradient-linear px-6 py-3 font-bold uppercase tracking-widest duration-100 ease-out hover:scale-110 hover:bg-white hover:bg-none hover:text-black hover:shadow-gradient-linear-shadow"
+    >
       {children}
     </button>
   );

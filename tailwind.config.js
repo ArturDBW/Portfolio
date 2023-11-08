@@ -13,6 +13,9 @@ export default {
         "gradient-linear-shadow":
           "0 0 12px 3px rgba(236, 65, 99, 1), 0 0 12px 6px rgba(168, 36, 181, 1)",
       },
+      backgroundColor: {
+        "darknes-bg": "rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   plugins: [],
