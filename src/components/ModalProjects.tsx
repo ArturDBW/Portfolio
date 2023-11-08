@@ -3,9 +3,17 @@ import { MainButton } from "../elements/MainButton";
 type ModalProps = {
   isOpenModal: boolean;
   setIsOpenModal: React.Dispatch<React.SetStateAction<boolean>>;
+  item: {
+    id: number;
+    title: string;
+  };
 };
 
-export const ModalProjects = ({ isOpenModal, setIsOpenModal }: ModalProps) => {
+export const ModalProjects = ({
+  isOpenModal,
+  setIsOpenModal,
+  item,
+}: ModalProps) => {
   return (
     <div
       onClick={() => setIsOpenModal(!isOpenModal)}
@@ -18,7 +26,7 @@ export const ModalProjects = ({ isOpenModal, setIsOpenModal }: ModalProps) => {
         className="bg-darknes-bg fixed inset-0 left-1/2 top-1/2 z-20 h-5/6 w-3/4 -translate-x-1/2 -translate-y-1/2  rounded-md px-8 py-4 backdrop-blur-xl"
       >
         <h2 className="border-b-[1px] border-stone-400 pb-8 pt-4 text-4xl font-bold">
-          AudiophileShop
+          {item.title}
         </h2>
         <h3 className="mb-4 mt-8 text-xl">About the project</h3>
         <p>
@@ -37,7 +45,7 @@ export const ModalProjects = ({ isOpenModal, setIsOpenModal }: ModalProps) => {
           <li>Mozna zmienic ilosc</li>
           <li>eleganckie podsumowanie na koniec jest</li>
         </ul>
-        <h3 className="mb-4 mt-8 text-xl">Technologies</h3>
+        <h3 className="mb-4 mt-8 text-xl">Technologies and tools</h3>
         <ul>
           <li>JavaScript</li>
           <li>React</li>

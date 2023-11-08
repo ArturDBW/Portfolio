@@ -1,54 +1,14 @@
-import { useState } from "react";
-import audiophileApp from "../assets/audiophileApp.png";
-import { MainButton } from "../elements/MainButton";
-import { ModalProjects } from "./ModalProjects";
+import { SingleProject } from "./singleProject";
+import data from "../data.json";
 
 export const Projects = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  const [isOpenModal, setIsOpenModal] = useState(false);
-
-  if (isOpenModal === true) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "visible";
-  }
-
   return (
     <section className="bg-[#14071A] py-5 text-white">
-      <div className="mx-auto max-w-7xl">
-        {isOpenModal && (
-          <ModalProjects
-            isOpenModal={isOpenModal}
-            setIsOpenModal={setIsOpenModal}
-          />
-        )}
-        <h2 className="text-center text-4xl">Projects</h2>
-        <div className="mt-8 flex gap-x-10">
-          <div
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            className="relative w-1/3 cursor-pointer rounded-md bg-white bg-opacity-10"
-          >
-            <img src={audiophileApp} alt="test" className="rounded-md p-1 " />
-            <h3 className="my-4 text-center text-2xl">audiophileShop</h3>
-            {isHovered && (
-              <div className="bg-darknes-bg absolute left-0 top-0 flex h-full w-full transform items-center justify-center">
-                <MainButton onClick={() => setIsOpenModal(!isOpenModal)}>
-                  Check out
-                </MainButton>
-              </div>
-            )}
-          </div>
-        </div>
+      <h2 className="my-10 text-center text-4xl">Projects</h2>
+      <div className="mx-auto flex max-w-7xl gap-x-6">
+        {data.map((item) => (
+          <SingleProject item={item} key={item.id} />
+        ))}
       </div>
     </section>
   );

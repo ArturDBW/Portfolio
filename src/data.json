@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "AudiophileShop",
+    "description": "opis tutaj bedzie wiadomo",
+    "features": [
+      {
+        "feature": "pierwszy feature"
+      },
+      {
+        "feature": "drugi feature"
+      },
+      {
+        "feature": "trzeci feature"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "javascript"
+      },
+      {
+        "technology": "react"
+      },
+      {
+        "technology": "tailwind"
+      }
+    ],
+    "repoLink": "www.repo",
+    "websiteLink": "nooooo",
+    "image": "/assets/audiophileApp.png"
+  },
+  {
+    "id": 2,
+    "title": "Drugi to jest",
+    "description": "drugi opissss",
+    "features": [
+      {
+        "feature": "pierwszy feature"
+      },
+      {
+        "feature": "drugi feature"
+      },
+      {
+        "feature": "trzeci inny feature"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "javascript"
+      },
+      {
+        "technology": "react"
+      },
+      {
+        "technology": "tailwind"
+      }
+    ],
+    "repoLink": "www.repo",
+    "websiteLink": "nooooo",
+    "image": "fotka"
+  },
+  {
+    "id": 3,
+    "title": "Trzeci",
+    "description": "opis tutaj bedzie wiadomo",
+    "features": [
+      {
+        "feature": "pierwszy feature"
+      },
+      {
+        "feature": "drugi feature"
+      },
+      {
+        "feature": "trzeci feature"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "javascript"
+      },
+      {
+        "technology": "react"
+      },
+      {
+        "technology": "tailwind"
+      }
+    ],
+    "repoLink": "www.repo",
+    "websiteLink": "nooooo",
+    "image": "/assets/audiophileApp.png"
+  }
+]
