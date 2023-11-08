@@ -54,6 +54,7 @@ export const ModalProjects = ({
                   src={gallery.image}
                   alt={gallery.image}
                   onClick={() => handleImageClick(gallery.image)}
+                  className="cursor-pointer rounded-md"
                 />
               </div>
             ))}
@@ -84,7 +85,11 @@ export const ModalProjects = ({
           className="bg-darknes-bg fixed left-0 top-0 z-30 h-full w-full backdrop-blur-xl"
         >
           <div className="fixed left-1/2 top-1/2 z-40 h-5/6 w-5/6 -translate-x-1/2 -translate-y-1/2">
-            <img src={selectedImage} alt={selectedImage} />
+            <img
+              src={selectedImage}
+              alt={selectedImage}
+              className="rounded-md"
+            />
           </div>
         </div>
       )}

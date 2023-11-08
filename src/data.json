@@ -48,7 +48,7 @@
   },
   {
     "id": 2,
-    "title": "Drugi to jest",
+    "title": "audiophileShop",
     "description": "drugi opissss",
     "features": [
       {
@@ -74,7 +74,18 @@
     ],
     "repoLink": "www.repo",
     "websiteLink": "nooooo",
-    "image": "/assets/audiophileApp.png"
+    "image": "/assets/audiophileApp.png",
+    "gallery": [
+      {
+        "image": "/assets/audiophileApp.png"
+      },
+      {
+        "image": "/assets/audiophileApp2.png"
+      },
+      {
+        "image": "/assets/audiophileApp3.png"
+      }
+    ]
   },
   {
     "id": 3,
