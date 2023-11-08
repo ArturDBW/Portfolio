@@ -2,19 +2,19 @@
   {
     "id": 1,
     "title": "entMoviesApp",
-    "description": "opis tutaj bedzie wiadomo",
+    "description": "Entertainment web application that allows to search for their favorite movies. The application sorts movies into two categories. Additionally, the application allows you to add a movie to your favorites list. I created this application as challange from frontendmentor.com",
     "features": [
       {
-        "feature": "images slider"
+        "feature": "Input for searching for relevant shows"
       },
       {
-        "feature": "search input"
+        "feature": "Add/Remove bookmarks from all movies and TV series"
       },
       {
-        "feature": "add/remove to favourite list"
+        "feature": "Sorted movies to two categories"
       },
       {
-        "feature": "sorted movies to two categories"
+        "feature": "slider on home page"
       }
     ],
     "technologies": [
@@ -49,27 +49,36 @@
   {
     "id": 2,
     "title": "audiophileShop",
-    "description": "drugi opissss",
+    "description": "E-commerce that allows add, remove and change quantity products with form and summary. I created this application as challange from frontendmentor.com",
     "features": [
       {
-        "feature": "pierwszy feature"
+        "feature": "Add/Remove products from the cart"
       },
       {
-        "feature": "drugi feature"
+        "feature": "Edit product quantities in the cart"
       },
       {
-        "feature": "trzeci inny feature"
+        "feature": "Calculating the total cost (include Vat and delivery"
+      },
+      {
+        "feature": "Summary of purchased items "
       }
     ],
     "technologies": [
       {
-        "technology": "javascript"
+        "technology": "JavaScript"
       },
       {
-        "technology": "react"
+        "technology": "React"
       },
       {
-        "technology": "tailwind"
+        "technology": "Tailwind"
+      },
+      {
+        "technology": "Redux"
+      },
+      {
+        "technology": "React Router"
       }
     ],
     "repoLink": "www.repo",
