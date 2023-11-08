@@ -1,33 +1,50 @@
 [
   {
     "id": 1,
-    "title": "AudiophileShop",
+    "title": "entMoviesApp",
     "description": "opis tutaj bedzie wiadomo",
     "features": [
       {
-        "feature": "pierwszy feature"
+        "feature": "images slider"
       },
       {
-        "feature": "drugi feature"
+        "feature": "search input"
       },
       {
-        "feature": "trzeci feature"
+        "feature": "add/remove to favourite list"
+      },
+      {
+        "feature": "sorted movies to two categories"
       }
     ],
     "technologies": [
       {
-        "technology": "javascript"
+        "technology": "JavaScript"
       },
       {
-        "technology": "react"
+        "technology": "React"
       },
       {
-        "technology": "tailwind"
+        "technology": "Sass"
+      },
+      {
+        "technology": "React Router"
       }
     ],
     "repoLink": "www.repo",
     "websiteLink": "nooooo",
-    "image": "/assets/audiophileApp.png"
+    "image": "/assets/entMoviesApp.png",
+    "gallery": [
+      {
+        "image": "/assets/entMoviesApp.png"
+      },
+      {
+        "image": "/assets/entMoviesApp2.png"
+      },
+      {
+        "image": "/assets/entMoviesApp.png"
+      }
+    ]
   },
   {
     "id": 2,
@@ -57,7 +74,7 @@
     ],
     "repoLink": "www.repo",
     "websiteLink": "nooooo",
-    "image": "fotka"
+    "image": "/assets/audiophileApp.png"
   },
   {
     "id": 3,
