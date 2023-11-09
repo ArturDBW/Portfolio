@@ -42,7 +42,7 @@ export const ModalProjects = ({
           onClick={(e) => {
             e.stopPropagation();
           }}
-          className="bg-darknes-bg fixed inset-0 left-1/2 top-1/2 z-20 h-5/6 w-3/4 -translate-x-1/2 -translate-y-1/2  overflow-y-auto rounded-md px-8 py-4 backdrop-blur-xl"
+          className="fixed inset-0 left-1/2 top-1/2 z-20 h-5/6 w-3/4 -translate-x-1/2 -translate-y-1/2 overflow-y-auto  rounded-md bg-darknes-bg px-8 py-4 backdrop-blur-xl"
         >
           <h2 className="border-b-[1px] border-stone-400 pb-8 pt-4 text-4xl font-bold">
             {item.title}
@@ -82,7 +82,7 @@ export const ModalProjects = ({
       {modalVisible && (
         <div
           onClick={() => setModalVisible(!modalVisible)}
-          className="bg-darknes-bg fixed left-0 top-0 z-30 h-full w-full backdrop-blur-xl"
+          className="fixed left-0 top-0 z-30 h-full w-full bg-darknes-bg backdrop-blur-xl"
         >
           <div className="fixed left-1/2 top-1/2 z-40 h-5/6 w-5/6 -translate-x-1/2 -translate-y-1/2">
             <img

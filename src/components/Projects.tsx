@@ -1,4 +1,4 @@
-import { SingleProject } from "./singleProject";
+import { SingleProject } from "./SingleProject";
 import data from "../data.json";
 
 export const Projects = () => {
@@ -13,12 +13,3 @@ export const Projects = () => {
     </section>
   );
 };
-
-/*
-<div className="gradient-border h-[300px] w-1/3 p-2">
-            <img src={moviesApp} alt="movies" />
-          </div>
-          <div className="gradient-border h-[300px] w-1/3 p-2">
-            <img src={audiophileApp} alt="audiophile" />
-          </div>
-          */
