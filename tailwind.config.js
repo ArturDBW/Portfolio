@@ -16,7 +16,21 @@ export default {
       backgroundColor: {
         "darknes-bg": "rgba(0, 0, 0, 0.3)",
       },
+      gradientColorStops: {
+        custom: {
+          0: "rgba(236, 65, 99, 1)",
+          50: "rgba(168, 36, 181, 1)",
+        },
+      },
+      linearGradientColors: {
+        "custom-gradient": [
+          "90deg",
+          "rgba(236, 65, 99, 1) 0%",
+          "rgba(168, 36, 181, 1) 50%",
+        ],
+      },
     },
   },
-  plugins: [],
+  // eslint-disable-next-line no-undef
+  plugins: [require("tailwindcss-gradients")],
 };
