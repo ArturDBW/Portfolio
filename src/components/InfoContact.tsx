@@ -6,7 +6,7 @@ import { Pinsvg } from "../svg/Pinsvg";
 
 export const InfoContact = () => {
   return (
-    <div className="w-1/2 space-y-4 rounded-md bg-white bg-opacity-10 p-4">
+    <div className="w-1/2 space-y-3 rounded-md bg-white bg-opacity-10 p-4">
       <div className="flex">
         <Mailsvg />
         <span className="ml-5">Arturwisniewski1998@gmail.com</span>
