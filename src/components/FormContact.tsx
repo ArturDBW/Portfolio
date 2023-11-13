@@ -51,7 +51,7 @@ export const FormContact = () => {
         />
         <input
           type="submit"
-          value="Send"
+          value="Send message"
           className="mt-4  cursor-pointer rounded-md border-none bg-gradient-linear px-6 py-3 font-bold uppercase tracking-widest outline-none duration-100 ease-out hover:scale-110 hover:bg-white hover:bg-none hover:text-black hover:shadow-gradient-linear-shadow"
         />
       </form>
