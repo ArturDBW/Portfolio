@@ -19,7 +19,7 @@ export const InfoContact = () => {
       </div>
       <div className="flex w-full items-end justify-between max-lg:flex-col max-lg:items-start">
         <div className="space-y-3">
-          <div className="flex max-[455px]:text-sm">
+          <div className="flex ">
             <Mailsvg />
             <span className="ml-5">Arturwisniewski1998@gmail.com</span>
           </div>

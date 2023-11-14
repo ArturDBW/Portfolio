@@ -3,10 +3,10 @@ import test from "../assets/test.png";
 
 export const Home = () => {
   return (
-    <section className="relative flex w-full">
-      <div className="flex h-[600px] w-full">
-        <div className="custom-bg-gradient2 w-1/3"></div>
-        <div className="custom-bg-gradient w-2/3"></div>
+    <section className="relative flex w-full border-b-[1px] border-stone-700">
+      <div className="max-sm:bg-home-gradient-linear flex h-[600px] w-full">
+        <div className="custom-bg-gradient2 w-1/3 max-sm:hidden"></div>
+        <div className="custom-bg-gradient w-2/3 max-sm:hidden"></div>
       </div>
       <div className="absolute left-0 top-0 w-full px-10 max-sm:px-5">
         <div className="mx-auto flex h-[600px] max-w-7xl items-center justify-between">
