@@ -1,19 +1,11 @@
 export const Header = () => {
   return (
-    <header className="sticky flex h-14 items-center  justify-between bg-neutral-950 px-10 text-white">
+    <header className="fixed left-0 top-0 z-10  flex h-14 w-full items-center justify-between bg-transparent px-10 text-white">
       <div>
         <span className=" text-2xl font-bold">
-          d<span className="text-pink-500">B</span>w
+          arturd<span className="text-pink-500">B</span>w.dev
         </span>
       </div>
-      <nav>
-        <ul className="flex space-x-12 font-bold uppercase tracking-wider">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
       <div>
         <button>Download CV</button>
       </div>

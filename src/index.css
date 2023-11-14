@@ -35,8 +35,29 @@
   border-width: 2px;
   border-image: linear-gradient(
     90deg,
-    rgba(236, 65, 99, 1) 0%,
+    rgb(236, 65, 99),
     rgba(168, 36, 181, 1) 50%
   );
   border-image-slice: 1;
+}
+
+.borderBottomGradient:focus {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgb(236, 65, 99),
+    rgba(168, 36, 181, 1) 50%
+  );
+  border-image-slice: 1;
+}
+
+.custom-gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(236, 65, 99),
+    rgba(168, 36, 181, 1) 50%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
 }
