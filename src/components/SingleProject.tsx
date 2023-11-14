@@ -42,12 +42,12 @@ export const SingleProject = ({ item }: SingleProductProps) => {
       <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="relative w-1/3 cursor-pointer rounded-md bg-white bg-opacity-10"
+        className="relative w-1/3 cursor-pointer rounded-md bg-white bg-opacity-10 max-md:w-full"
       >
         <img src={item.image} alt="test" className="rounded-md p-1 " />
         <h3 className="my-4 text-center text-2xl">{item.title}</h3>
         {isHovered && (
-          <div className="bg-darknes-bg absolute left-0 top-0 flex h-full w-full transform items-center justify-center">
+          <div className="absolute left-0 top-0 flex h-full w-full transform items-center justify-center bg-darknes-bg">
             <MainButton onClick={() => setIsOpenModal(!isOpenModal)}>
               Check out
             </MainButton>

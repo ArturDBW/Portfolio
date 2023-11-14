@@ -13,11 +13,11 @@ import { MainButton } from "../elements/MainButton";
 export const About = () => {
   return (
     <section className="bg-about-gradient-linear py-10 text-white">
-      <div className="mx-auto flex max-w-7xl items-center">
-        <div className="w-1/2">
+      <div className="mx-auto flex max-w-7xl items-center px-10 max-sm:px-5">
+        <div className="w-1/2 max-md:hidden">
           <img src={aboutPhoto} alt="aboutPhoto" />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 max-md:w-full">
           <h2 className="text-4xl">
             About <span className="gradient-text mr-1 font-bold">me</span>
           </h2>
@@ -27,7 +27,7 @@ export const About = () => {
             job as a frontend developer.
           </p>
           <h3 className="my-5">Actually i work with</h3>
-          <div className="inline-flex items-center space-x-3 rounded-md bg-white bg-opacity-10 px-6 py-3 backdrop-blur-md">
+          <div className="inline-flex items-center space-x-3 rounded-md bg-white bg-opacity-10 px-6 py-3 backdrop-blur-md max-md:flex-wrap max-[455px]:space-x-1">
             <HTMLsvg />
             <CSSsvg />
             <Sasssvg />
