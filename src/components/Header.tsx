@@ -5,21 +5,17 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Sprawdź, czy strona została przewinięta o pewną odległość (np. 100 pikseli)
       const isScrolled = window.scrollY > 1;
 
-      // Ustaw stan w zależności od przewinięcia strony
       setScrolled(isScrolled);
     };
 
-    // Dodaj nasłuchiwanie zdarzeń przewijania strony po zamontowaniu komponentu
     window.addEventListener("scroll", handleScroll);
 
-    // Odczep nasłuchiwanie zdarzeń po odmontowaniu komponentu
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // Pusta tablica oznacza, że efekt uruchamia się tylko ra
+  }, []);
 
   return (
     <header
