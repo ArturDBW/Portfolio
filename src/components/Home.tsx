@@ -1,5 +1,5 @@
 import { MainButton } from "../elements/MainButton";
-import test from "../assets/ddd-removebg-preview.png";
+import test from "../assets/test.png";
 
 export const Home = () => {
   return (

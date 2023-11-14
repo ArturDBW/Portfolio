@@ -12,13 +12,13 @@
   background: radial-gradient(
     at top,
     rgb(37, 17, 77) 0%,
-    rgb(35, 13, 51) 30%,
-    rgba(7, 1, 14, 1) 60%
+    rgb(35, 13, 51) 0%,
+    rgba(7, 1, 14, 1) 50%
   );
 }
 
 .custom-bg-gradient2 {
-  background: radial-gradient(#14071f 0%, #1a0b29 35%, #07010e 70%);
+  background: radial-gradient(#14071f 0%, #1a0b29 1%, #07010e 75%);
 }
 
 .gradient-text {
