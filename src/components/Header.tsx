@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Logo } from "../elements/Logo";
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -23,11 +24,7 @@ export const Header = () => {
         scrolled ? "bg-black bg-opacity-20 backdrop-blur-lg" : ""
       }`}
     >
-      <div>
-        <span className=" text-2xl font-bold">
-          arturd<span className="text-pink-500">B</span>w.dev
-        </span>
-      </div>
+      <Logo />
       <div>
         <div>
           <div></div>
