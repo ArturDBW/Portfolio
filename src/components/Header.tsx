@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Logo } from "../elements/Logo";
+import { DarkTheme } from "./DarkTheme";
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -18,10 +19,6 @@ export const Header = () => {
     };
   }, []);
 
-  const toggleTheme = () => {
-    document.documentElement.classList.toggle("dark");
-  };
-
   return (
     <header
       className={`fixed left-0 top-0 z-10  flex h-14 w-full items-center justify-between px-10 text-white max-sm:px-5 ${
@@ -29,14 +26,7 @@ export const Header = () => {
       }`}
     >
       <Logo />
-      <div>
-        <button
-          onClick={toggleTheme}
-          className="rounded-md bg-red-300 px-6 py-3 hover:bg-red-400"
-        >
-          Dark Mode
-        </button>
-      </div>
+      <DarkTheme />
     </header>
   );
 };
