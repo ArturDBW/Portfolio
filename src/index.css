@@ -8,17 +8,38 @@
   }
 }
 
-.custom-bg-gradient {
-  background: radial-gradient(
-    at top,
-    rgb(37, 17, 77) 0%,
-    rgb(35, 13, 51) 0%,
-    rgba(7, 1, 14, 1) 50%
-  );
+@layer utilities {
+  .bg-radial-gradient {
+    background: radial-gradient(at top, #25114d 0%, #230d33 0%, #07010e 60%);
+  }
 }
 
-.custom-bg-gradient2 {
-  background: radial-gradient(#14071f 0%, #1a0b29 1%, #07010e 75%);
+@layer utilities {
+  .bg-gradient-light {
+    background: radial-gradient(at top, #e5c4ff 0%, #d8b8f0 0%, #ffffff 60%);
+  }
+}
+
+@layer utilities {
+  .bg-radial-gradient2 {
+    background: radial-gradient(
+      at left top,
+      #14071f 0%,
+      #1a0b29 1%,
+      #07010e 65%
+    );
+  }
+}
+
+@layer utilities {
+  .bg-radial-gradient-light2 {
+    background: radial-gradient(
+      at left top,
+      #e5c4ff 0%,
+      #d8b8f0 0%,
+      #ffffff 65%
+    );
+  }
 }
 
 .gradient-text {

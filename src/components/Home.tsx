@@ -3,14 +3,14 @@ import test from "../assets/test.png";
 
 export const Home = () => {
   return (
-    <section className="relative flex w-full border-b-[1px] border-stone-700">
-      <div className="max-sm:bg-home-gradient-linear flex h-[600px] w-full">
-        <div className="custom-bg-gradient2 w-1/3 max-sm:hidden"></div>
-        <div className="custom-bg-gradient w-2/3 max-sm:hidden"></div>
+    <section className="relative flex w-full text-black dark:text-white">
+      <div className="dark:max-sm:bg-home-gradient-linear max-sm:bg-home-gradient-linear-light flex h-[600px] w-full">
+        <div className="dark:bg-radial-gradient2 bg-radial-gradient-light2 w-1/3 max-sm:hidden"></div>
+        <div className="dark:bg-radial-gradient bg-gradient-light  w-2/3 max-sm:hidden"></div>
       </div>
       <div className="absolute left-0 top-0 w-full px-10 max-sm:px-5">
         <div className="mx-auto flex h-[600px] max-w-7xl items-center justify-between">
-          <div className="grow text-white max-sm:w-full">
+          <div className="grow max-sm:w-full">
             <h4 className="text-xl font-bold max-md:text-lg">
               Hi there! I&rsquo;m
             </h4>
