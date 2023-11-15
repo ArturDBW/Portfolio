@@ -6,20 +6,20 @@ import { Pinsvg } from "../svg/Pinsvg";
 
 export const InfoContact = () => {
   return (
-    <div className="flex w-1/2 flex-col items-start justify-between space-y-3 rounded-md bg-white bg-opacity-10 p-4">
+    <div className="flex w-1/2 flex-col items-start justify-between space-y-3 rounded-md bg-white bg-opacity-10 p-4 max-md:w-full">
       <div>
         <h3 className="mb-4 text-3xl ">
           <span className="gradient-text mr-1 font-bold">Let&rsquo;s</span>
           talk!
         </h3>
-        <p className="text mb-6 mt-2 text-lg">
+        <p className="text mb-6 mt-2 text-lg max-sm:text-base">
           Thank you for visiting my portfolio. If you are interested in
           cooperation, please contact me!
         </p>
       </div>
-      <div className="flex w-full items-end justify-between">
+      <div className="flex w-full items-end justify-between max-lg:flex-col max-lg:items-start">
         <div className="space-y-3">
-          <div className="flex">
+          <div className="flex ">
             <Mailsvg />
             <span className="ml-5">Arturwisniewski1998@gmail.com</span>
           </div>
@@ -33,7 +33,7 @@ export const InfoContact = () => {
           </div>
         </div>
         <div>
-          <div className="flex space-x-3 rounded-md bg-white bg-opacity-10 px-6 py-3">
+          <div className="flex space-x-3 rounded-md bg-white bg-opacity-10 px-6 py-3 max-lg:mt-10">
             <GitHubsvg />
             <Linkedlnsvg />
           </div>
