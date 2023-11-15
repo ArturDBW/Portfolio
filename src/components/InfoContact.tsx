@@ -6,7 +6,7 @@ import { Pinsvg } from "../svg/Pinsvg";
 
 export const InfoContact = () => {
   return (
-    <div className="flex w-1/2 flex-col items-start justify-between space-y-3 rounded-md bg-white bg-opacity-10 p-4 max-md:w-full">
+    <div className="flex w-1/2 flex-col items-start justify-between space-y-3 rounded-md bg-black bg-opacity-10 p-4 text-gray-950 dark:bg-white dark:bg-opacity-10 dark:text-white max-md:w-full">
       <div>
         <h3 className="mb-4 text-3xl ">
           <span className="gradient-text mr-1 font-bold">Let&rsquo;s</span>
@@ -33,7 +33,7 @@ export const InfoContact = () => {
           </div>
         </div>
         <div>
-          <div className="flex space-x-3 rounded-md bg-white bg-opacity-10 px-6 py-3 max-lg:mt-10">
+          <div className="flex space-x-3 rounded-md bg-black bg-opacity-10 px-6 py-3 dark:bg-white dark:bg-opacity-10 max-lg:mt-10">
             <GitHubsvg />
             <Linkedlnsvg />
           </div>
