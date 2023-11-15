@@ -12,7 +12,7 @@ import { MainButton } from "../elements/MainButton";
 
 export const About = () => {
   return (
-    <section className="border-b-[1px] border-stone-700 bg-about-gradient-linear py-10 text-white">
+    <section className="bg-about-gradient-linear-light border-b-[1px] border-stone-700 py-10 text-black dark:bg-about-gradient-linear dark:text-white">
       <div className="mx-auto flex max-w-7xl items-center px-10 max-sm:px-5">
         <div className="w-1/2 max-md:hidden">
           <img src={aboutPhoto} alt="aboutPhoto" />
