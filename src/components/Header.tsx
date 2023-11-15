@@ -25,7 +25,7 @@ export const Header = () => {
   return (
     <header
       className={`fixed left-0 top-0 z-10  flex h-14 w-full items-center justify-between px-10 text-white max-sm:px-5 ${
-        scrolled ? "bg-black bg-opacity-20 backdrop-blur-lg" : "bg-transparent"
+        scrolled ? "bg-black bg-opacity-10 backdrop-blur-lg" : "bg-transparent"
       }`}
     >
       <Logo />

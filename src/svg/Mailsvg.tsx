@@ -4,7 +4,7 @@ export const Mailsvg = () => {
       className="h-6 w-6 text-gray-800 dark:text-white"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
-      fill=""
+      fill="none"
       viewBox="0 0 20 16"
     >
       <path

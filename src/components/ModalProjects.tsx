@@ -42,11 +42,13 @@ export const ModalProjects = ({
           onClick={(e) => {
             e.stopPropagation();
           }}
-          className="fixed inset-0 left-1/2 top-1/2 z-20 h-5/6 w-3/4 -translate-x-1/2 -translate-y-1/2 overflow-y-auto  rounded-md bg-darknes-bg px-8 py-5 backdrop-blur-xl max-md:w-11/12 max-sm:px-5"
+          className="fixed inset-0 left-1/2 top-1/2 z-20 h-5/6 w-3/4 -translate-x-1/2 -translate-y-1/2 overflow-y-auto  rounded-md bg-black bg-opacity-20 px-8 py-5 backdrop-blur-2xl dark:bg-opacity-30 max-md:w-11/12 max-sm:px-5"
         >
-          <h2 className="border-b-[1px] border-stone-400 pb-8 pt-4 text-4xl font-bold max-sm:text-2xl">
-            {item.title}
-          </h2>
+          <div>
+            <h2 className="border-b-[1px] border-stone-400 pb-8 pt-4 text-4xl font-bold max-sm:text-2xl">
+              {item.title}
+            </h2>
+          </div>
           <div className="mt-4 flex gap-x-4 max-sm:flex-col max-sm:gap-y-5">
             {item.gallery.map((gallery, i) => (
               <div key={i} className="w">

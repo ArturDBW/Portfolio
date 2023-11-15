@@ -30,7 +30,7 @@ export const FormContact = () => {
   };
 
   return (
-    <div className="w-1/2 rounded-md bg-black bg-opacity-10 p-4 dark:bg-white dark:bg-opacity-10 max-md:w-full">
+    <div className="w-1/2 rounded-md bg-black bg-opacity-5 p-4 dark:bg-white dark:bg-opacity-10 max-md:w-full">
       <form ref={form} onSubmit={sendEmail} className="">
         <input
           type="text"

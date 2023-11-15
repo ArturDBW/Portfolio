@@ -27,7 +27,7 @@ export const About = () => {
             job as a frontend developer.
           </p>
           <h3 className="my-5">Actually i work with</h3>
-          <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-10 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10 max-md:flex-wrap max-sm:px-2 max-[455px]:space-x-2">
+          <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-5 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10 max-md:flex-wrap max-sm:px-2 max-[455px]:space-x-2">
             <HTMLsvg />
             <CSSsvg />
             <Sasssvg />
@@ -37,7 +37,7 @@ export const About = () => {
             <Tailwindsvg />
           </div>
           <h3 className="my-5">Find me on GitHub and Linkdln</h3>
-          <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-10 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10">
+          <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-5 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10">
             <GitHubsvg />
             <Linkedlnsvg />
           </div>

@@ -13,6 +13,8 @@ export default {
           "linear-gradient(90deg, rgba(251, 237, 242, 1) 0%, rgba(247, 239, 239, 1) 100%)",
         "home-gradient-linear":
           "linear-gradient(90deg, rgba(19, 8, 37, 1) 0%, rgba(7, 1, 14, 1) 100%)",
+        "home-gradient-linear-light":
+          "linear-gradient(90deg, rgba(228, 214, 233,1) 0%, rgba(255, 255, 255,1) 70%)",
       },
       boxShadow: {
         "gradient-linear-shadow":

@@ -42,7 +42,7 @@ export const SingleProject = ({ item }: SingleProductProps) => {
       <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="relative w-1/3 cursor-pointer rounded-md bg-black bg-opacity-10 dark:bg-white dark:bg-opacity-10 max-md:w-full"
+        className="relative w-1/3 cursor-pointer rounded-md bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-10 max-md:w-full"
       >
         <img src={item.image} alt="test" className="rounded-md p-1 " />
         <h3 className="my-4 text-center text-2xl">{item.title}</h3>

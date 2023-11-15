@@ -22,13 +22,23 @@
 
 @layer utilities {
   .bg-radial-gradient2 {
-    background: radial-gradient(at left, #14071f 0%, #1a0b29 1%, #07010e 65%);
+    background: radial-gradient(
+      at left top,
+      #14071f 0%,
+      #1a0b29 1%,
+      #07010e 65%
+    );
   }
 }
 
 @layer utilities {
   .bg-radial-gradient-light2 {
-    background: radial-gradient(at left, #e5c4ff 0%, #d8b8f0 1%, #ffffff 65%);
+    background: radial-gradient(
+      at left top,
+      #e5c4ff 0%,
+      #d8b8f0 0%,
+      #ffffff 65%
+    );
   }
 }
 
