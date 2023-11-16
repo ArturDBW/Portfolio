@@ -83,6 +83,12 @@
   background-clip: text;
 }
 
+/* message animation */
+
+.message-container.active {
+  transform: translateY(0);
+}
+
 /* scrollbar */
 
 ::-webkit-scrollbar {
