@@ -7,7 +7,9 @@ export const FormContact = () => {
   const inputStyles =
     "borderBottomGradient w-full border-b-[2px] border-stone-400 bg-transparent pb-2 pt-4 outline-none placeholder:text-stone-400";
 
+  const [nameInputValue, setNameInputValue] = useState("");
   const [emailInputValue, setEmailInputValue] = useState("");
+  const [messageInputValue, setMessageInputValue] = useState("");
 
   const [messageVisible, setMessageVisible] = useState(false);
   const messageHandling = () => {
@@ -23,6 +25,9 @@ export const FormContact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     if (emailInputValue === "") return;
+    setNameInputValue("");
+    setEmailInputValue("");
+    setMessageInputValue("");
 
     emailjs
       .sendForm(
@@ -48,6 +53,8 @@ export const FormContact = () => {
         <input
           type="text"
           name="user_name"
+          value={nameInputValue}
+          onChange={(e) => setNameInputValue(e.target.value)}
           className={inputStyles}
           placeholder="Name"
         />
@@ -61,6 +68,8 @@ export const FormContact = () => {
         />
         <textarea
           name="message"
+          value={messageInputValue}
+          onChange={(e) => setMessageInputValue(e.target.value)}
           className={`${inputStyles} h-40`}
           placeholder="Message"
         />
