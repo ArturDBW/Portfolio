@@ -35,7 +35,7 @@ export const About = () => {
             <Reactsvg />
             <Tailwindsvg />
           </div>
-          <h3 className="my-5">Find me on GitHub and Linkdln</h3>
+          <h3 className="my-5">Find me on GitHub and Linkedin</h3>
           <SocialMedia />
           <h3 className="my-5">Check my CV</h3>
           <MainButton>Download</MainButton>

@@ -56,7 +56,7 @@ export const ModalProjects = ({
                   src={gallery.image}
                   alt={gallery.image}
                   onClick={() => handleImageClick(gallery.image)}
-                  className="cursor-pointer rounded-md"
+                  className="h-full w-full cursor-pointer rounded-md"
                 />
               </div>
             ))}

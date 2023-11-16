@@ -16,7 +16,7 @@ export const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <li className={liStyles}>Linkedln</li>
+          <li className={liStyles}>Linkedin</li>
         </a>
       </ul>
     </footer>

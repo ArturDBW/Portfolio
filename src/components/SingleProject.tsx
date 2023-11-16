@@ -44,7 +44,11 @@ export const SingleProject = ({ item }: SingleProductProps) => {
         onMouseLeave={handleMouseLeave}
         className="relative w-1/3 cursor-pointer rounded-md bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-10 max-md:w-full"
       >
-        <img src={item.image} alt="test" className="rounded-md p-1 " />
+        <img
+          src={item.image}
+          alt="test"
+          className="w-full items-stretch rounded-md p-1"
+        />
         <h3 className="my-4 text-center text-2xl">{item.title}</h3>
         {isHovered && (
           <div className="absolute left-0 top-0 flex h-full w-full transform items-center justify-center bg-darknes-bg">
