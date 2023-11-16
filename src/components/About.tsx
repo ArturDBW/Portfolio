@@ -11,22 +11,6 @@ import { SocialMedia } from "../elements/SocialMedia";
 import CV from "../assets/CV.pdf";
 
 export const About = () => {
-  const handleDownloadCV = () => {
-    // Tworzymy link do pobrania CV
-    const link = document.createElement("a");
-    link.href = CV;
-    link.download = "Artur_CV.pdf"; // Nadaj nazwę pliku do pobrania
-
-    // Dodajemy link do dokumentu
-    document.body.appendChild(link);
-
-    // Symulujemy kliknięcie w link
-    link.click();
-
-    // Usuwamy link z dokumentu
-    document.body.removeChild(link);
-  };
-
   return (
     <section className="bg-about-gradient-linear-light py-10 text-black dark:bg-about-gradient-linear dark:text-white">
       <div className="mx-auto flex max-w-7xl items-center px-10 max-sm:px-5">
@@ -55,7 +39,9 @@ export const About = () => {
           <h3 className="my-5">Find me on GitHub and Linkedin</h3>
           <SocialMedia />
           <h3 className="my-5">Check my CV</h3>
-          <MainButton onClick={handleDownloadCV}>Download</MainButton>
+          <a href={CV} download="ArturWisniewskiCV">
+            <MainButton>Download</MainButton>
+          </a>
         </div>
       </div>
     </section>
