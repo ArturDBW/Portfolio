@@ -6,9 +6,8 @@ import { Jssvg } from "../svg/Jssvg";
 import { Reactsvg } from "../svg/Reactsvg";
 import { Tssvg } from "../svg/Tssvg";
 import { Tailwindsvg } from "../svg/Tailwindsvg";
-import { GitHubsvg } from "../svg/GitHubsvg";
-import { Linkedlnsvg } from "../svg/Linkedlnsvg";
 import { MainButton } from "../elements/MainButton";
+import { SocialMedia } from "../elements/SocialMedia";
 
 export const About = () => {
   return (
@@ -37,10 +36,7 @@ export const About = () => {
             <Tailwindsvg />
           </div>
           <h3 className="my-5">Find me on GitHub and Linkdln</h3>
-          <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-5 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10">
-            <GitHubsvg />
-            <Linkedlnsvg />
-          </div>
+          <SocialMedia />
           <h3 className="my-5">Check my CV</h3>
           <MainButton>Download</MainButton>
         </div>

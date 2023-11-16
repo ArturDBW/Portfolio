@@ -1,5 +1,4 @@
-import { GitHubsvg } from "../svg/GitHubsvg";
-import { Linkedlnsvg } from "../svg/Linkedlnsvg";
+import { SocialMedia } from "../elements/SocialMedia";
 import { Mailsvg } from "../svg/Mailsvg";
 import { Phonesvg } from "../svg/Phonesvg";
 import { Pinsvg } from "../svg/Pinsvg";
@@ -33,10 +32,7 @@ export const InfoContact = () => {
           </div>
         </div>
         <div>
-          <div className="flex space-x-3 rounded-md bg-black bg-opacity-5 px-6 py-3 dark:bg-white dark:bg-opacity-10 max-lg:mt-10">
-            <GitHubsvg />
-            <Linkedlnsvg />
-          </div>
+          <SocialMedia />
         </div>
       </div>
     </div>
