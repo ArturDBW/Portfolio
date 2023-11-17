@@ -1,9 +1,24 @@
 export const Footer = () => {
   const liStyles: string = "gradient-text-hover font-bold duration-150";
+
+  const scrollToAboutSection = () => {
+    const scrollTarget = document.getElementById("aboutSection");
+
+    if (scrollTarget) {
+      scrollTarget.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <footer className="bg-[#f7efef] py-10 text-lg dark:bg-[#07010e] dark:text-white">
       <ul className="flex justify-center space-x-4">
-        <li className={liStyles}>About</li>
+        <li
+          onClick={scrollToAboutSection}
+          className={`${liStyles} cursor-pointer`}
+        >
+          About
+        </li>
         <a href="https://github.com/ArturDBW" target="_blank" rel="noreferrer">
           <li
             className={`${liStyles} border-l border-r border-black px-4 dark:border-white`}

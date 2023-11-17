@@ -9,10 +9,17 @@ import { Tailwindsvg } from "../svg/Tailwindsvg";
 import { MainButton } from "../elements/MainButton";
 import { SocialMedia } from "../elements/SocialMedia";
 import CV from "../assets/CV.pdf";
+import { useRef } from "react";
 
 export const About = () => {
+  const scrollSectionAbout = useRef<HTMLDivElement>(null);
+
   return (
-    <section className="bg-about-gradient-linear-light py-10 text-black dark:bg-about-gradient-linear dark:text-white">
+    <section
+      id="aboutSection"
+      ref={scrollSectionAbout}
+      className="bg-about-gradient-linear-light py-10 text-black dark:bg-about-gradient-linear dark:text-white"
+    >
       <div className="mx-auto flex max-w-7xl items-center px-10 max-sm:px-5">
         <div className="w-1/2 max-md:hidden">
           <img src={aboutPhoto} alt="aboutPhoto" />

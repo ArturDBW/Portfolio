@@ -2,6 +2,16 @@ import { MainButton } from "../elements/MainButton";
 import test from "../assets/test.png";
 
 export const Home = () => {
+  const scrollToAboutSection = () => {
+    const scrollTarget = document.getElementById("aboutSection");
+
+    if (scrollTarget) {
+      scrollTarget.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <section className="relative flex w-full text-black dark:text-white">
       <div className="flex h-[600px] w-full max-sm:bg-home-gradient-linear-light dark:max-sm:bg-home-gradient-linear">
@@ -21,7 +31,7 @@ export const Home = () => {
               <span className="gradient-text mr-1 font-bold">Frontend </span>
               <span>developer</span>
             </h3>
-            <MainButton>About me</MainButton>
+            <MainButton onClick={scrollToAboutSection}>About me</MainButton>
           </div>
           <div className="flex grow justify-end max-sm:hidden">
             <img src={test} alt="test" />
