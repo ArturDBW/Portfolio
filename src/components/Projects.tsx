@@ -1,26 +1,6 @@
 import { SingleProject } from "./SingleProject";
 import data from "../data.json";
 
-type ProjectProps = {
-  item: {
-    id: number;
-    title: string;
-    description: string;
-    features: {
-      feature: string;
-    }[];
-    technologies: {
-      technology: string;
-    }[];
-    repoLink: string;
-    websiteLink: string;
-    image: string;
-    gallery: {
-      image: string;
-    }[];
-  };
-};
-
 export const Projects = () => {
   return (
     <section className="border-stone-700 px-10 py-8 dark:bg-[#14071A] dark:text-white max-sm:px-5">

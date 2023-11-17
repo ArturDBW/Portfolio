@@ -31,8 +31,8 @@
         "technology": "React Router"
       }
     ],
-    "repoLink": "www.repo",
-    "websiteLink": "nooooo",
+    "repoLink": "https://github.com/ArturDBW/EntMoviesApp",
+    "websiteLink": "https://movies-app-seven-jet.vercel.app/",
     "image": "/assets/entMoviesApp.png",
     "gallery": [
       {
@@ -81,8 +81,8 @@
         "technology": "React Router"
       }
     ],
-    "repoLink": "www.repo",
-    "websiteLink": "nooooo",
+    "repoLink": "https://github.com/ArturDBW/audiophileShop",
+    "websiteLink": "https://audiophileshopapp.vercel.app/",
     "image": "/assets/audiophileApp.png",
     "gallery": [
       {
@@ -124,6 +124,17 @@
     ],
     "repoLink": "www.repo",
     "websiteLink": "nooooo",
-    "image": "/assets/audiophileApp.png"
+    "image": "/assets/audiophileApp.png",
+    "gallery": [
+      {
+        "image": "/assets/audiophileApp.png"
+      },
+      {
+        "image": "/assets/audiophileApp2.png"
+      },
+      {
+        "image": "/assets/audiophileApp3.png"
+      }
+    ]
   }
 ]

@@ -85,8 +85,12 @@ export const ModalProjects = ({
             ))}
           </ul>
           <div className="mt-8 space-x-10">
-            <MainButton>Repo</MainButton>
-            <MainButton>Website</MainButton>
+            <a href={item.repoLink} target="_blank" rel="noreferrer">
+              <MainButton>Repo</MainButton>
+            </a>
+            <a href={item.websiteLink} target="_blank" rel="noreferrer">
+              <MainButton>Website</MainButton>
+            </a>
           </div>
         </div>
       </div>
