@@ -1,4 +1,9 @@
-export const Sunsvg = ({ onClick, theme }) => {
+type SvgProps = {
+  onClick: React.MouseEventHandler;
+  theme: "dark" | "light";
+};
+
+export const Sunsvg = ({ onClick, theme }: SvgProps) => {
   return (
     <svg
       className={`h-4 w-4 cursor-pointer duration-100 hover:scale-125 ${
