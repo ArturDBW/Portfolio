@@ -2,8 +2,10 @@ import { useState, useEffect } from "react";
 import { Moonsvg } from "../svg/Moonsvg";
 import { Sunsvg } from "../svg/Sunsvg";
 
+type Theme = "light" | "dark";
+
 export const DarkTheme = () => {
-  const [theme, setTheme] = useState(
+  const [theme, setTheme] = useState<Theme>(
     window.matchMedia("(prefers-color-scheme: dark)").matches
       ? "dark"
       : "light",

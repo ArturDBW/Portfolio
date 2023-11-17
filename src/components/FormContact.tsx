@@ -1,18 +1,18 @@
-import { useRef } from "react";
+import { FormEvent, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Checksvg } from "../svg/Checksvg";
 import { useState } from "react";
 
 export const FormContact = () => {
-  const inputStyles =
+  const inputStyles: string =
     "borderBottomGradient w-full border-b-[2px] border-stone-400 bg-transparent pb-2 pt-4 outline-none placeholder:text-stone-400";
 
-  const [nameInputValue, setNameInputValue] = useState("");
-  const [emailInputValue, setEmailInputValue] = useState("");
-  const [messageInputValue, setMessageInputValue] = useState("");
+  const [nameInputValue, setNameInputValue] = useState<string>("");
+  const [emailInputValue, setEmailInputValue] = useState<string>("");
+  const [messageInputValue, setMessageInputValue] = useState<string>("");
 
-  const [messageVisible, setMessageVisible] = useState(false);
-  const messageHandling = () => {
+  const [messageVisible, setMessageVisible] = useState<boolean>(false);
+  const messageHandling = (): void => {
     if (emailInputValue === "") return;
     setMessageVisible(true);
     setTimeout(() => {
@@ -20,9 +20,9 @@ export const FormContact = () => {
     }, 3000);
   };
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: FormEvent) => {
     e.preventDefault();
     if (emailInputValue === "") return;
     setNameInputValue("");
@@ -33,7 +33,7 @@ export const FormContact = () => {
       .sendForm(
         "service_068qxvx",
         "template_j0o5n7m",
-        form.current,
+        form.current as HTMLFormElement,
         "iukb8ccPKFQwZ5dwj",
       )
       .then(

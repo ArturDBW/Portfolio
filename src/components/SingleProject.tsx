@@ -6,22 +6,34 @@ type SingleProductProps = {
   item: {
     id: number;
     title: string;
+    description: string;
+    features: {
+      feature: string;
+    }[];
+    technologies: {
+      technology: string;
+    }[];
+    repoLink: string;
+    websiteLink: string;
     image: string;
+    gallery: {
+      image: string;
+    }[];
   };
 };
 
 export const SingleProject = ({ item }: SingleProductProps) => {
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter = (): void => {
     setIsHovered(true);
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (): void => {
     setIsHovered(false);
   };
 
-  const [isOpenModal, setIsOpenModal] = useState(false);
+  const [isOpenModal, setIsOpenModal] = useState<boolean>(false);
 
   if (isOpenModal === true) {
     document.body.style.overflow = "hidden";

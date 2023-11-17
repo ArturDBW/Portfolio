@@ -3,10 +3,10 @@ import { Logo } from "../elements/Logo";
 import { DarkTheme } from "./DarkTheme";
 
 export const Header = () => {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState<boolean>(false);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = (): void => {
       const isScrolled = window.scrollY > 1;
 
       setScrolled(isScrolled);

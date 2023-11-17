@@ -4,7 +4,7 @@ import test from "../assets/test.png";
 export const Home = () => {
   return (
     <section className="relative flex w-full text-black dark:text-white">
-      <div className="dark:max-sm:bg-home-gradient-linear max-sm:bg-home-gradient-linear-light flex h-[600px] w-full">
+      <div className="flex h-[600px] w-full max-sm:bg-home-gradient-linear-light dark:max-sm:bg-home-gradient-linear">
         <div className="dark:bg-radial-gradient2 bg-radial-gradient-light2 w-1/3 max-sm:hidden"></div>
         <div className="dark:bg-radial-gradient bg-gradient-light  w-2/3 max-sm:hidden"></div>
       </div>

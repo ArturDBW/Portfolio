@@ -8,9 +8,18 @@ type ModalProps = {
     id: number;
     title: string;
     description: string;
-    features: { feature: string }[];
-    technologies: { technology: string }[];
-    gallery: { image: string }[];
+    features: {
+      feature: string;
+    }[];
+    technologies: {
+      technology: string;
+    }[];
+    repoLink: string;
+    websiteLink: string;
+    image: string;
+    gallery: {
+      image: string;
+    }[];
   };
 };
 
@@ -19,18 +28,18 @@ export const ModalProjects = ({
   setIsOpenModal,
   item,
 }: ModalProps) => {
-  const [modalVisible, setModalVisible] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [modalVisible, setModalVisible] = useState<boolean>(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const handleImageClick = (image) => {
+  const handleImageClick = (image: string) => {
     setSelectedImage(image);
     setModalVisible(true);
   };
 
-  const closeModal = () => {
-    setModalVisible(false);
-    setSelectedImage(null);
-  };
+  // const closeModal = () => {
+  //   setModalVisible(false);
+  //   setSelectedImage(null);
+  // };
 
   return (
     <>
@@ -88,8 +97,8 @@ export const ModalProjects = ({
         >
           <div className="fixed left-1/2 top-1/2 z-40 h-5/6 w-5/6 -translate-x-1/2 -translate-y-1/2">
             <img
-              src={selectedImage}
-              alt={selectedImage}
+              src={selectedImage || ""}
+              alt={selectedImage || ""}
               className="rounded-md"
             />
           </div>
