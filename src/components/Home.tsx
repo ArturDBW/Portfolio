@@ -35,7 +35,7 @@ export const Home = () => {
             <h4 className="text-2xl font-bold max-md:text-lg">
               Hi there! I&rsquo;m
             </h4>
-            <h1 className="mb-2 mt-6 text-7xl font-bold max-md:text-4xl max-sm:text-5xl">
+            <h1 className="mb-2 mt-6 text-7xl font-bold max-md:text-5xl max-sm:text-5xl">
               Artur Wiśniewski
             </h1>
             <h3 className="mb-16 text-4xl max-lg:text-xl max-sm:text-2xl">
