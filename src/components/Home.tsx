@@ -4,10 +4,21 @@ import test from "../assets/test.png";
 export const Home = () => {
   const scrollToAboutSection = () => {
     const scrollTarget = document.getElementById("aboutSection");
+    const offset = 50;
 
     if (scrollTarget) {
       scrollTarget.scrollIntoView({
         behavior: "smooth",
+        block: "nearest",
+        inline: "nearest",
+      });
+    }
+
+    if (scrollTarget) {
+      window.scroll({
+        behavior: "smooth",
+        left: 0,
+        top: scrollTarget.offsetTop - offset,
       });
     }
   };

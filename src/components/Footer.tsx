@@ -3,13 +3,25 @@ export const Footer = () => {
 
   const scrollToAboutSection = () => {
     const scrollTarget = document.getElementById("aboutSection");
+    const offset = 50;
 
     if (scrollTarget) {
       scrollTarget.scrollIntoView({
         behavior: "smooth",
+        block: "nearest",
+        inline: "nearest",
+      });
+    }
+
+    if (scrollTarget) {
+      window.scroll({
+        behavior: "smooth",
+        left: 0,
+        top: scrollTarget.offsetTop - offset,
       });
     }
   };
+
   return (
     <footer className="bg-[#f7efef] py-10 text-lg dark:bg-[#07010e] dark:text-white">
       <ul className="flex justify-center space-x-4">
