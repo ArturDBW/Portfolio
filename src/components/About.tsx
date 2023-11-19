@@ -22,7 +22,7 @@ export const About = () => {
     >
       <div className="mx-auto flex max-w-7xl items-center px-10 max-sm:px-5">
         <div className="w-1/2 max-md:hidden">
-          <img src={aboutPhoto} alt="aboutPhoto" />
+          <img src={aboutPhoto} alt="aboutPhoto" className="" />
         </div>
         <div className="w-1/2 max-md:w-full">
           <h2 className="text-4xl">
