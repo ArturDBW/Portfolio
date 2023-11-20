@@ -32,16 +32,16 @@ export const Home = () => {
       <div className="absolute left-0 top-0 w-full px-10 max-sm:px-5">
         <div className="mx-auto flex h-screen max-w-7xl items-center justify-between">
           <div className="grow max-sm:w-full">
-            <h4 className="text-2xl font-bold max-md:text-lg">
+            <span className="text-2xl font-bold max-md:text-lg">
               Hi there! I&rsquo;m
-            </h4>
+            </span>
             <h1 className="mb-2 mt-6 text-7xl font-bold max-md:text-5xl max-sm:text-5xl">
               Artur Wiśniewski
             </h1>
-            <h3 className="mb-16 text-4xl max-lg:text-xl max-sm:text-2xl">
+            <h2 className="mb-16 text-4xl max-lg:text-xl max-sm:text-2xl">
               <span className="gradient-text mr-1 font-bold">Frontend </span>
               <span>developer</span>
-            </h3>
+            </h2>
             <MainButton onClick={scrollToAboutSection}>About me</MainButton>
           </div>
           <div className="flex grow justify-end max-sm:hidden">

@@ -36,15 +36,9 @@ export const FormContact = () => {
         form.current as HTMLFormElement,
         "iukb8ccPKFQwZ5dwj",
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-          messageHandling();
-        },
-        (error) => {
-          console.log(error.text);
-        },
-      );
+      .then(() => {
+        messageHandling();
+      });
   };
 
   return (

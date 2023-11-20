@@ -52,6 +52,12 @@ export const ModalProjects = ({
             <h2 className="border-b-[1px] border-stone-400 pb-8 pt-4 text-4xl font-bold max-sm:text-2xl">
               {item.title}
             </h2>
+            <button
+              onClick={() => setIsOpenModal(false)}
+              className="absolute right-2 top-2 rounded-full bg-black bg-opacity-10 px-4 py-2 font-bold duration-150 hover:bg-pink-500 dark:bg-white dark:bg-opacity-20 dark:hover:bg-pink-500"
+            >
+              x
+            </button>
           </div>
           <div className="mt-4 flex gap-x-4 max-sm:flex-col max-sm:gap-y-5">
             {item.gallery.map((gallery, i) => (
