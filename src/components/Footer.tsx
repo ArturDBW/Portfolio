@@ -1,5 +1,6 @@
 export const Footer = () => {
-  const liStyles: string = "gradient-text-hover font-bold duration-150";
+  const liStyles: string =
+    "gradient-text-hover font-bold duration-150 cursor-pointer";
 
   const scrollToAboutSection = () => {
     const scrollTarget = document.getElementById("aboutSection");
@@ -25,10 +26,7 @@ export const Footer = () => {
   return (
     <footer className="bg-[#f7efef] py-10 text-lg dark:bg-[#07010e] dark:text-white">
       <ul className="flex justify-center space-x-4">
-        <li
-          onClick={scrollToAboutSection}
-          className={`${liStyles} cursor-pointer`}
-        >
+        <li onClick={scrollToAboutSection} className={liStyles}>
           About
         </li>
 

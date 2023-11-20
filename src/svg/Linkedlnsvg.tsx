@@ -4,6 +4,7 @@ export const Linkedlnsvg = () => {
       href="https://www.linkedin.com/in/artur-wi%C5%9Bniewski-4045041b8/"
       target="_blank"
       rel="noreferrer"
+      aria-label="Linkedin"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

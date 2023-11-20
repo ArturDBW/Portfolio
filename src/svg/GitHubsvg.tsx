@@ -1,6 +1,11 @@
 export const GitHubsvg = () => {
   return (
-    <a href="https://github.com/ArturDBW" target="_blank" rel="noreferrer">
+    <a
+      href="https://github.com/ArturDBW"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="GitHub"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
