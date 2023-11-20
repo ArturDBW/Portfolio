@@ -58,7 +58,7 @@
         "feature": "Edit product quantities in the cart"
       },
       {
-        "feature": "Calculating the total cost (include Vat and delivery"
+        "feature": "Calculating the total cost (include Vat and delivery)"
       },
       {
         "feature": "Summary of purchased items "
@@ -99,27 +99,27 @@
   {
     "id": 3,
     "title": "Dopiero bedzie ;D",
-    "description": "opis tutaj bedzie wiadomo",
+    "description": "przeciez napisalem ze nie jest rdy nie?",
     "features": [
       {
-        "feature": "pierwszy feature"
+        "feature": "prosze"
       },
       {
-        "feature": "drugi feature"
+        "feature": "sie"
       },
       {
-        "feature": "trzeci feature"
+        "feature": "nie interesowac"
       }
     ],
     "technologies": [
       {
-        "technology": "javascript"
+        "technology": "jezu"
       },
       {
-        "technology": "react"
+        "technology": "chryste"
       },
       {
-        "technology": "tailwind"
+        "technology": "gorzeeeeeeel"
       }
     ],
     "repoLink": "www.repo",

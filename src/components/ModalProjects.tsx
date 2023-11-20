@@ -36,11 +36,6 @@ export const ModalProjects = ({
     setModalVisible(true);
   };
 
-  // const closeModal = () => {
-  //   setModalVisible(false);
-  //   setSelectedImage(null);
-  // };
-
   return (
     <>
       <div
