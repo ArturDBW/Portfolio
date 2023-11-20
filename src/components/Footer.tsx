@@ -31,20 +31,28 @@ export const Footer = () => {
         >
           About
         </li>
-        <a href="https://github.com/ArturDBW" target="_blank" rel="noreferrer">
-          <li
-            className={`${liStyles} border-l border-r border-black px-4 dark:border-white`}
+
+        <li
+          className={`${liStyles} border-l border-r border-black px-4 dark:border-white`}
+        >
+          <a
+            href="https://github.com/ArturDBW"
+            target="_blank"
+            rel="noreferrer"
           >
             GitHub
-          </li>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/artur-wi%C5%9Bniewski-4045041b8/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <li className={liStyles}>Linkedin</li>
-        </a>
+          </a>
+        </li>
+
+        <li className={liStyles}>
+          <a
+            href="https://www.linkedin.com/in/artur-wi%C5%9Bniewski-4045041b8/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
+        </li>
       </ul>
     </footer>
   );
