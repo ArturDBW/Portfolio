@@ -98,42 +98,54 @@
   },
   {
     "id": 3,
-    "title": "Dopiero bedzie ;D",
-    "description": "przeciez napisalem ze nie jest rdy nie?",
+    "title": "Lifecal",
+    "description": "Meet my calorie and macro tracking app, designed to simplify nutrition monitoring. I can calculate your daily caloric needs, log meals by time, and even let you add your own custom meals.",
     "features": [
       {
-        "feature": "prosze"
+        "feature": "calculating your daily calorie requirement and the macros you need"
       },
       {
-        "feature": "sie"
+        "feature": "displays consumed calories and macronutrients, providing a clear overview of your nutritional intake"
       },
       {
-        "feature": "nie interesowac"
+        "feature": "segregation of the type of meals"
+      },
+      {
+        "feature": "possibility of adding your own meal"
       }
     ],
     "technologies": [
       {
-        "technology": "jezu"
+        "technology": "TypeScript"
       },
       {
-        "technology": "chryste"
+        "technology": "React"
       },
       {
-        "technology": "gorzeeeeeeel"
+        "technology": "Styled components"
+      },
+      {
+        "technology": "MUI"
+      },
+      {
+        "technology": "Redux"
+      },
+      {
+        "technology": "React Router"
       }
     ],
-    "repoLink": "www.repo",
-    "websiteLink": "nooooo",
-    "image": "/assets/audiophileApp.png",
+    "repoLink": "https://github.com/ArturDBW/LifecalApp",
+    "websiteLink": "https://lifecal-app.vercel.app/",
+    "image": "/assets/lifecalApp.png",
     "gallery": [
       {
-        "image": "/assets/audiophileApp.png"
+        "image": "/assets/lifecalApp.png"
       },
       {
-        "image": "/assets/audiophileApp2.png"
+        "image": "/assets/lifecalApp2.png"
       },
       {
-        "image": "/assets/audiophileApp3.png"
+        "image": "/assets/lifecalApp3.png"
       }
     ]
   }
