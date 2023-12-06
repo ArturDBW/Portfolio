@@ -1,6 +1,6 @@
 import { MainButton } from "../elements/MainButton";
 import { ModalProjects } from "./ModalProjects";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type SingleProductProps = {
   item: {
@@ -34,6 +34,7 @@ export const SingleProject = ({ item }: SingleProductProps) => {
   };
 
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false);
+  const [modalVisible, setModalVisible] = useState<boolean>(false);
 
   if (isOpenModal === true) {
     document.body.style.overflow = "hidden";
@@ -41,12 +42,28 @@ export const SingleProject = ({ item }: SingleProductProps) => {
     document.body.style.overflow = "visible";
   }
 
+  const handleKeyDown = (e: KeyboardEvent): void => {
+    if (e.key === "Escape" && isOpenModal && modalVisible) {
+      setIsOpenModal(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpenModal]);
+
   return (
     <>
       {isOpenModal && (
         <ModalProjects
           isOpenModal={isOpenModal}
           setIsOpenModal={setIsOpenModal}
+          modalVisible={modalVisible}
+          setModalVisible={setModalVisible}
           item={item}
         />
       )}

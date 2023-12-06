@@ -1,9 +1,11 @@
 import { MainButton } from "../elements/MainButton";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type ModalProps = {
   isOpenModal: boolean;
   setIsOpenModal: React.Dispatch<React.SetStateAction<boolean>>;
+  modalVisible: boolean;
+  setModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
   item: {
     id: number;
     title: string;
@@ -27,14 +29,33 @@ export const ModalProjects = ({
   isOpenModal,
   setIsOpenModal,
   item,
+  modalVisible,
+  setModalVisible,
 }: ModalProps) => {
-  const [modalVisible, setModalVisible] = useState<boolean>(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const handleImageClick = (image: string) => {
     setSelectedImage(image);
     setModalVisible(true);
   };
+
+  const handleKeyDown = (e: KeyboardEvent): void => {
+    if (e.key === "Escape" && isOpenModal) {
+      if (modalVisible) {
+        setModalVisible(false);
+      } else {
+        setIsOpenModal(false);
+      }
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpenModal, modalVisible]);
 
   return (
     <>
