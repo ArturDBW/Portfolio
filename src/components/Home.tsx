@@ -1,5 +1,5 @@
 import { MainButton } from "../elements/MainButton";
-import test from "../assets/test.png";
+import heroPhoto from "../assets/heroPhoto.png";
 
 export const Home = () => {
   const scrollToAboutSection = () => {
@@ -45,7 +45,7 @@ export const Home = () => {
             <MainButton onClick={scrollToAboutSection}>About me</MainButton>
           </div>
           <div className="flex grow justify-end max-sm:hidden">
-            <img src={test} alt="test" className="w-full" />
+            <img src={heroPhoto} alt="test" className="w-full" />
           </div>
         </div>
       </div>

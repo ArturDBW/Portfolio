@@ -102,16 +102,16 @@
     "description": "Meet my calorie and macro tracking app, designed to simplify nutrition monitoring. I can calculate your daily caloric needs, log meals by time, and even let you add your own custom meals.",
     "features": [
       {
-        "feature": "calculating your daily calorie requirement and the macros you need"
+        "feature": "Calculating your daily calorie requirement and the macros you need"
       },
       {
-        "feature": "displays consumed calories and macronutrients, providing a clear overview of your nutritional intake"
+        "feature": "Displays consumed calories and macronutrients, providing a clear overview of your nutritional intake"
       },
       {
-        "feature": "segregation of the type of meals"
+        "feature": "Segregation of the type of meals"
       },
       {
-        "feature": "possibility of adding your own meal"
+        "feature": "Possibility of adding your own meal"
       }
     ],
     "technologies": [
