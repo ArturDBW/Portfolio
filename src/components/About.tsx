@@ -30,10 +30,10 @@ export const About = () => {
           </h2>
           <p className="my-5 text-gray-950 dark:text-stone-300">
             Nice to meet you! My name is Artur, I am 25 years old frontend
-            developer based in Bytów, Poland. Currently I looking for my first
+            developer based in Bytów, Poland. Currently I'm looking for my first
             job as a frontend developer.
           </p>
-          <h3 className="my-5">Actually i work with</h3>
+          <h3 className="my-5">Actually I work with</h3>
           <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-5 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10 max-md:flex-wrap max-sm:px-2 max-[455px]:space-x-2">
             <HTMLsvg />
             <CSSsvg />
