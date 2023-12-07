@@ -30,7 +30,7 @@ export const About = () => {
           </h2>
           <p className="my-5 text-gray-950 dark:text-stone-300">
             Nice to meet you! My name is Artur, I am 25 years old frontend
-            developer based in Bytów, Poland. Currently I'm looking for my first
+            developer based in Bytów, Poland. Currently I`m looking for my first
             job as a frontend developer.
           </p>
           <h3 className="my-5">Actually I work with</h3>
