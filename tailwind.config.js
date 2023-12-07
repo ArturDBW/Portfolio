@@ -6,7 +6,9 @@ export default {
     extend: {
       backgroundImage: {
         "gradient-linear":
-          "linear-gradient(90deg, rgba(236, 65, 99, 1) 0%, rgba(168, 36, 181, 1) 50%)",
+          "linear-gradient(90deg, rgba(236, 65, 99, 1) 00%, rgba(168, 36, 181, 1) 50%)",
+        "gradient-linear-hover":
+          "linear-gradient(90deg, rgba(168, 36, 181, 1) 0%, rgba(236, 65, 99, 1) 50%)",
         "about-gradient-linear":
           "linear-gradient(90deg, rgba(66, 22, 53, 1) 0%, rgba(21, 4, 31, 1) 50%)",
         "about-gradient-linear-light":

@@ -70,7 +70,7 @@ export const FormContact = () => {
         <input
           type="submit"
           value="Send message"
-          className="mt-4 cursor-pointer rounded-md border-none bg-gradient-linear px-6 py-3 font-bold uppercase tracking-widest text-white outline-none duration-100 ease-out hover:scale-110 hover:bg-white hover:bg-none hover:text-black hover:shadow-gradient-linear-shadow"
+          className="mt-4 block cursor-pointer rounded-lg bg-gradient-to-r from-[#1D2B64] to-[#F8CDDA] px-10 py-4 text-center uppercase text-white shadow-lg transition-all duration-500 ease-in-out hover:bg-gradient-to-l dark:from-[#AA076B] dark:to-[#61045F]"
         />
       </form>
       <div
