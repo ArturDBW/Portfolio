@@ -10,6 +10,9 @@ import { MainButton } from "../elements/MainButton";
 import { SocialMedia } from "../elements/SocialMedia";
 import CV from "../assets/CV.pdf";
 import { useRef } from "react";
+import { NodeJssvg } from "../svg/NodeJssvg";
+import { MongoDBsvg } from "../svg/MongoDBsvg";
+import { ExpressJssvg } from "../svg/ExpressJssvg";
 
 export const About = () => {
   const scrollSectionAbout = useRef<HTMLDivElement>(null);
@@ -42,6 +45,9 @@ export const About = () => {
             <Tssvg />
             <Reactsvg />
             <Tailwindsvg />
+            <NodeJssvg />
+            <ExpressJssvg />
+            <MongoDBsvg />
           </div>
           <h3 className="my-5">Find me on GitHub and Linkedin</h3>
           <SocialMedia />
