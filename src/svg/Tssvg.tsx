@@ -7,6 +7,7 @@ export const Tssvg = () => {
       width="36"
       height="36"
       viewBox="0 0 48 48"
+      className="duration-150 hover:scale-125"
     >
       <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect>
       <polygon

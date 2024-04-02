@@ -7,6 +7,7 @@ export const Jssvg = () => {
       width="36"
       height="36"
       viewBox="0 0 48 48"
+      className="duration-150 hover:scale-125"
     >
       <path fill="#f7df1e" d="M6,42V6h36v36H6z"></path>
       <path

@@ -7,6 +7,7 @@ export const Reactsvg = () => {
       width="36"
       height="36"
       viewBox="0 0 80 80"
+      className="duration-150 hover:scale-125"
     >
       <path
         fill="#8bb7f0"

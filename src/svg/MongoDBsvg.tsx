@@ -8,6 +8,7 @@ export const MongoDBsvg = () => {
       width="36"
       height="36"
       fill="#000000"
+      className="duration-150 hover:scale-125"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

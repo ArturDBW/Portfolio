@@ -38,16 +38,86 @@ export const About = () => {
           </p>
           <h3 className="my-5">Actually I work with</h3>
           <div className="inline-flex items-center space-x-3 rounded-md bg-black bg-opacity-5 px-6 py-3 backdrop-blur-md dark:bg-white dark:bg-opacity-10 max-md:flex-wrap max-sm:px-2 max-[455px]:space-x-2">
-            <HTMLsvg />
-            <CSSsvg />
-            <Sasssvg />
-            <Jssvg />
-            <Tssvg />
-            <Reactsvg />
-            <Tailwindsvg />
-            <NodeJssvg />
-            <ExpressJssvg />
-            <MongoDBsvg />
+            <a
+              href="https://www.w3schools.com/html/"
+              title="HTML"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <HTMLsvg />
+            </a>
+            <a
+              href="https://www.w3schools.com/css/"
+              title="CSS"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <CSSsvg />
+            </a>
+            <a
+              href="https://sass-lang.com/"
+              title="SASS"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Sasssvg />
+            </a>
+            <a
+              href="https://www.w3schools.com/js/"
+              title="JavaScript"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Jssvg />
+            </a>
+            <a
+              href="https://www.typescriptlang.org/"
+              title="TypeScript"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Tssvg />
+            </a>
+            <a
+              href="https://react.dev/"
+              title="React"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Reactsvg />
+            </a>
+            <a
+              href="https://tailwindcss.com/"
+              title="TailwindCSS"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Tailwindsvg />
+            </a>
+            <a
+              href="https://nodejs.org/en"
+              title="NodeJs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <NodeJssvg />
+            </a>
+            <a
+              href="https://expressjs.com/"
+              title="Express"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ExpressJssvg />
+            </a>
+            <a
+              href="https://www.mongodb.com/"
+              title="MongoDB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MongoDBsvg />
+            </a>
           </div>
           <h3 className="my-5">Find me on GitHub and Linkedin</h3>
           <SocialMedia />

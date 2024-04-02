@@ -10,6 +10,7 @@ export const NodeJssvg = () => {
       height="36"
       preserveAspectRatio="xMidYMid"
       fill="#000000"
+      className="duration-150 hover:scale-125"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

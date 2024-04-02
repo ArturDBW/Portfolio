@@ -7,6 +7,7 @@ export const Tailwindsvg = () => {
       width="36"
       height="36"
       viewBox="0 0 48 48"
+      className="duration-150 hover:scale-125"
     >
       <path
         fill="#00acc1"
