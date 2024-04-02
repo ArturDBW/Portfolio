@@ -148,5 +148,59 @@
         "image": "/assets/lifecalApp3.png"
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "SkillSphere",
+    "description": "My first fullstack web application with authentication and authorization system. Online learning platform that allows to search and purchase courses, as well as create your own. Additionally, the website boasts an extensive review system, enabling users to provide valuable feedback on courses. The application is not complete yet.",
+    "features": [
+      {
+        "feature": "Authentication (login/signup) and authorization"
+      },
+      {
+        "feature": "Possibility to buy the course"
+      },
+      {
+        "feature": "Reviews system (create, edit, delete) to each course"
+      },
+      {
+        "feature": "Adding your own course"
+      },
+      {
+        "feature": "Changing user data"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "JavaScript"
+      },
+      { "technology": "NodeJs + Express" },
+      { "technology": "MongoDB" },
+
+      { "technology": "TypeScript" },
+      {
+        "technology": "React"
+      },
+      {
+        "technology": "Tailwind"
+      },
+      {
+        "technology": "React Router"
+      }
+    ],
+    "repoLink": "https://github.com/ArturDBW/SkillSphereApp",
+    "websiteLink": "https://skill-sphere-app-frontend.vercel.app",
+    "image": "/assets/skillSphere.png",
+    "gallery": [
+      {
+        "image": "/assets/skillSphere.png"
+      },
+      {
+        "image": "/assets/skillSphere2.png"
+      },
+      {
+        "image": "/assets/skillSphere3.png"
+      }
+    ]
   }
 ]

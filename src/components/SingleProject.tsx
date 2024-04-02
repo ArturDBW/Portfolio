@@ -72,7 +72,7 @@ export const SingleProject = ({ item }: SingleProductProps) => {
         onClick={() => setIsOpenModal(true)}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="relative w-1/3 cursor-pointer rounded-md bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-10 max-md:w-full"
+        className="relative cursor-pointer rounded-md bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-10"
       >
         <img
           src={item.image}
