@@ -2,7 +2,7 @@
 
 ## Description
 
-My current web portfolio. 
+My current web portfolio
 
 ## Technologies
 - React
